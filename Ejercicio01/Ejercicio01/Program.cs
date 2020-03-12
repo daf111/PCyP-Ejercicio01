@@ -11,6 +11,11 @@ namespace Ejercicio01
         static void Main(string[] args)
         {
             Console.WriteLine("Hola mundo!");
+
+            Auto a = new Auto();
+            a.cantidadPuertas = 4;
+            Console.WriteLine("El auto tiene: " + a.cantidadPuertas + " puertas");
+
             Console.ReadLine();
         }
     }
